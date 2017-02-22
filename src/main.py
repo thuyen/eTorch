@@ -56,9 +56,6 @@ parser.add_argument('--out_file', dest='out_file', default='preds.npy')
 
 
 
-best_prec1 = 0
-best_loss = float('inf')
-
 log_file = os.path.join("log.txt")
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s', filename=log_file)
 console = logging.StreamHandler()
